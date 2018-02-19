@@ -1,4 +1,4 @@
 name: Network Brouhaha
 markdown: kramdown
-
+theme: jekyll-theme-modernist
 permalink: /blog/:year/:month/:day/:title
