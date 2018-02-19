@@ -1,4 +1,6 @@
 name: Network Brouhaha
+title: Network Brouhaha
+description: This is mah blog
 markdown: kramdown
 theme: jekyll-theme-modernist
 permalink: /blog/:year/:month/:day/:title
