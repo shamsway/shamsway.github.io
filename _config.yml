@@ -4,3 +4,4 @@ description: This is mah blog
 markdown: kramdown
 theme: jekyll-theme-modernist
 permalink: /blog/:year/:month/:day/:title
+show_downloads: false
