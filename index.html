@@ -4,11 +4,10 @@ title: Network Brouhaha
 ---
 <div class="blurb">
   Yo!
-  
+</div><!-- /.blurb -->
 
+<div class="blurb">
 {% for post in site.posts %}
   <p>{{ post.date | date: "%m/%d/%Y" }} &mdash; <a href="{{ post.url }}">{{ post.title }}</a></p>
 {% endfor %}
-
-  
 </div><!-- /.blurb -->
