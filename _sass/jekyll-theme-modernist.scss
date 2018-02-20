@@ -22,6 +22,44 @@ body {
   box-shadow: rgba(#000, 0.2) 0 0 0 1px, rgba(#000, 0.45) 0 3px 10px;
 }
 
+.post-date {
+	text-transform: uppercase;
+	font-size: 14px;
+  font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.fab {
+  padding: 10px;
+  font-size: 30px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fas {
+  padding: 10px;
+  font-size: 30px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fab:hover {
+   opacity: 0.7;
+}
+
+.fas:hover {
+   opacity: 0.7;
+}
+
+.social {
+  position:absolute;
+  z-index:1;
+  right:275px;
+  top:10px;
+}
+
 header, section, footer {
   display:block;
 }
@@ -252,10 +290,14 @@ small {
   font-size:11px;
 }
 
+pagination {
+  font-size:8px;
+}
+
 hr {
   border:0;
   background:#aaa;
-  height:1px;
+  // height:1px;
   margin:0 0 20px;
 }
 
