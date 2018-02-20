@@ -3,5 +3,21 @@ title: Network Brouhaha
 description: This is mah blog
 markdown: kramdown
 theme: jekyll-theme-modernist
-permalink: /blog/:year/:month/:day/:title
+permalink: /:year/:month/:title/
 show_downloads: false
+exclude: ["README.md"]
+
+
+paginate: 10
+paginate_path: "page:num"
+
+author:
+  name: Matt Elliott
+  github: shamsway
+  twitter: networkbrouhaha
+  linkedin: eth0
+  bio: Matt Elliott is a Network Architect/Engineer. CCIE #56011
+
+rss_path: feed/
+categories_path: categories/
+tags_path: tags/
