@@ -7,8 +7,8 @@ layout: feed
 	<title>Network Brouhaha/title>
 	<link href="http://shamsway.github.io/blog/atom.xml" rel="self"/>
 	<link href="http://shamsway.github.io/blog"/>
-	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://hankquinlan.github.io/blog</id>
+	<updated>{{ site.time | date: "%m/%d/%Y" }}</updated>
+	<id>http://shamsway.github.io/blog</id>
 	<author>
 		<name>Matt Elliott</name>
 		<email>networkbrouhaha@gmail.com</email>
