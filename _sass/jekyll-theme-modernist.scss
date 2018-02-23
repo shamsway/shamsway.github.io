@@ -56,8 +56,17 @@ body {
 .social {
   position:absolute;
   z-index:1;
-  right:275px;
-  top:10px;
+  right:5px;
+  top:0px
+}
+
+.blurb {
+  height:auto;
+  overflow:auto;
+}
+
+.blurb img {
+  padding-right: 10px;
 }
 
 header, section, footer {
@@ -93,7 +102,8 @@ header {
     font-size:24px;
     line-height:1.2;
     color:#069;
-    text-shadow:rgba(#fff, 0.9) 0 1px 0;
+    // text-shadow:rgba(#fff, 0.9) 0 1px 0;
+    text-shadow: 2px 2px #d0d0d0;
   }
 
   &.without-description h1 {
@@ -128,14 +138,14 @@ header {
     list-style:none;
     position:absolute;
     z-index:1;
-    right:20px;
-    top:20px;
+    right:10px;
+    top:74px;
     height:30px;
-    padding:1px 0;
-    background:#5198DF;
-    background: linear_gradient(#77B9FB, #3782CD);
-    border-radius:5px;
-    box-shadow: inset rgba(#fff, 0.45) 0 1px 0, inset rgba(#000, 0.2) 0 -1px 0;
+    // padding:1px 0;
+    // background:#5198DF;
+    // background: linear_gradient(#77B9FB, #3782CD);
+    // border-radius:5px;
+    // box-shadow: inset rgba(#fff, 0.45) 0 1px 0, inset rgba(#000, 0.2) 0 -1px 0;
     width:auto;
 
     &:before {
@@ -146,43 +156,43 @@ header {
       top:-4px;
       right:-5px;
       bottom:-6px;
-      background:rgba(#000, 0.1);
-      border-radius: 8px;
-      box-shadow: rgba(#000, 0.2) 0 -1px 0, inset rgba(#fff, 0.7) 0 -1px 0;
+      // background:rgba(#000, 0.1);
+      // border-radius: 8px;
+      // box-shadow: rgba(#000, 0.2) 0 -1px 0, inset rgba(#fff, 0.7) 0 -1px 0;
     }
 
     li {
       width:79px;
       float:left;
-      border-right:1px solid #3A7CBE;
+      // border-right:1px solid #3A7CBE;
       height:30px;
 
       &.single {
-        border:none;
+        // border:none;
       }
     }
 
     li + li {
       width:78px;
-      border-left:1px solid #8BBEF3;
+      // border-left:1px solid #8BBEF3;
     }
 
     li + li + li {
-      border-right:none;
+      // border-right:none;
       width:79px;
     }
 
     a {
       line-height:1;
       font-size:14px;
-      color:#fff;
-      color:rgba(#fff, 0.8);
+      // color:#fff;
+      // color:rgba(#fff, 0.8);
       display:block;
-      text-align:center;
-      font-weight:400;
-      padding-top:6px;
+      text-align:right;
+      font-weight:600;
+      // padding-top:6px;
       height:40px;
-      text-shadow:rgba(#000, 0.4) 0 -1px 0;
+      // text-shadow:rgba(#000, 0.4) 0 -1px 0;
 
       strong {
         font-size:14px;

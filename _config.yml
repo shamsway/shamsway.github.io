@@ -1,12 +1,11 @@
 name: Network Brouhaha
 title: Network Brouhaha
-description: This is mah blog
+description: Networking, Cloud, Automation, Infrastructure, Containers and General Geekery
 markdown: kramdown
 theme: jekyll-theme-modernist
 permalink: /:year/:month/:title/
 show_downloads: false
 exclude: ["README.md"]
-
 
 paginate: 10
 paginate_path: "page:num"
