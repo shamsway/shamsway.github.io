@@ -95,6 +95,7 @@ header {
   position:relative;
   padding:15px 20px;
   border-bottom:1px solid #B2D2E1;
+  overflow: hidden;
 
   h1 {
     margin:0;
@@ -147,9 +148,14 @@ header {
     // border-radius:5px;
     // box-shadow: inset rgba(#fff, 0.45) 0 1px 0, inset rgba(#000, 0.2) 0 -1px 0;
     width:auto;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: -1px;
 
     &:before {
-      content:'';
+      // content:'';
       position:absolute;
       z-index:-1;
       left:-5px;
@@ -162,24 +168,27 @@ header {
     }
 
     li {
-      width:79px;
+      width:auto;
       float:left;
       // border-right:1px solid #3A7CBE;
       height:30px;
+      padding-left:5px;
+      // display: inline-block;
+      flex-grow: 1;
+      flex-basis: auto;
+      margin: .25em 0;
+      padding: 0 1em;
+      text-align: center;
+      border-left: 1px double #ccc;
+      // border-left: 1px double #ccc;
 
       &.single {
         // border:none;
       }
     }
 
-    li + li {
-      width:78px;
-      // border-left:1px solid #8BBEF3;
-    }
-
-    li + li + li {
-      // border-right:none;
-      width:79px;
+    li:first-child {
+      border-left: none;
     }
 
     a {
