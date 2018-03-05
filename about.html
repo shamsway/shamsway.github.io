@@ -3,10 +3,46 @@ layout: default
 title: About
 ---
 
+<style>
+ useless {}
+</style>
+
+<script>
+function toggle() {
+    var x = document.getElementById("useless");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>
 
 <div class="blurb">
   <img src="{{ site.url }}/resources/2018/02/duff_man_sm.png" align="left">
-  Welcome to my site. My name is Matt Elliott. I am a Dad, Husband, Geek and Network Engineer/Architect living in Lexington KY.
-  <p>&nbsp;<p>
-  Add site purpose, personal history, goals?
+  Welcome to my site. My name is Matt Elliott. I am a Dad, Husband, Geek and Network Engineer/Architect born and raised in Lexington, KY. I've been interested in computers for most of my life. I spent several summers attending the University of Kentucky Childrens Summer Program, where I learned BASIC on their <a href="https://en.wikipedia.org/wiki/Prime_Computer">Prime</a> system. I was hooked from day one, and spent much of my adolescence reading about any computer-related subject I could get my hands on. Being an avid gamer added more fuel to that fire.
+  <p><br>
+  Around age thirteen I installed linux for the first time (Slackware IIRC), and I have been a passionate supporter of Linux and Open Source Software ever since. I also lucked out by having a mother on faculty at UK, and she gave over her credentials. This gave me access to several UNIX-based systems, and I dove in head first to newsgroups, IRC, MUDs, and all those other pre-web Internet curiosities. I frequented BBSes in the region, and even met networking god <a href="http://smorris.uber-geek.net">Scott Morris</a>. His <a href="https://www.edn.com/electronics-blogs/edn-moments/4412388/Assassins--Guild-BBS-raided-for-piracy--April-19--1995">BBS</a> was legendary among my friends and me. Somewhere I have a beta copy of Windows 3.11 that I copied from him. This was the phase of my life where I was reading <a href="https://www.2600.com">2600</a> and <a href="https://en.wikipedia.org/wiki/The_Anarchist_Cookbook">The Anarchist Cookbook</a>, and I assumed I was on the path to becoming an uber-l33t hacker. That phase passed, but I am still fascinated by DEF CON presentations, and I hope to make it in person one day.
+  <p>
+  My first "real" technology job was fixing computers at <a href="http://kytrade.com">Kentucky Trade Computers</a> while attending the University of Kentucky. After receiving my BS in Computer Science, I started doing C# and PHP web development for a local company. It became apparent quickly that they needed someone besides the CEO to run the infrastructure, so I earned my CCNA and MCSE. I realized that I was enamored with networking and I focused my career on becoming a full-fledged Network Engineer. Since then, I have worked in Healthcare, Manufacturing, Big Law, and I am currently a Solutions Architect at a regional <a href="https://www.thinksis.com">CSP/MSP/VAR</a>. I earned my CCIE Data Center in March 2017.
+  <p>
+  I've adopted this sticker I found on reddit as a personal logo, and I want to make sure I give credit to <a href="https://www.reddit.com/user/redskyguy">/u/redskyguy</a> since he is the creator. It's awesome and goofy, and I feel like it sums up the life of a network engineer pretty well. If you like it as much as I do, you can buy the stickers <a href="https://www.redbubble.com/people/redskyguy/works/21034906-drink-coffee-route-packets?p=sticker">here</a>.
+  <div align="center"><img src="{{ site.url }}/resources/2018/02/drink_route_tr.png" width="25%" height="25%"></div>
+  <p><br>
+  My hope for this blog is to document some of the interesting problems I've come across, as well as contribute back to the wider community. Thanks for reading.
 </div><!-- /.blurb -->
+
+<a onClick="toggle();" style="cursor: pointer; cursor: hand;">More random info about me</a>
+
+<div id="useless" style="display:none;">
+  <p>
+  <ul>
+    <li>Hobbies: LOL. I've got kids. They're my hobby now. On the off chance I get some free time I enjoy getting outside, going to see live musc, brewing beers, tasting beers (I am a hop head, but like most styles of beer), and reading.</li>
+    <li>Favorite Band: The good 'ole Grateful Dead</li>
+    <li>Favorite Movie: Blade Runner (Directors Cut)</li>
+    <li>Favorite TV Show: Mad Men</li>
+    <li>Favorite Books: Neuromancer, A Game of Thrones (and the rest of ASOIAF), Dresden Files</li>
+    <li>Favorite Comic: Saga</li>
+    <li>Favorite Beer: Too hard - that's like asking me which of my kids is my favorite</li>
+  </ul>
+</div>

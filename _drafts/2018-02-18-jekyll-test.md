@@ -11,9 +11,10 @@ Here's what I have left to do to set up jekyll.
 * ~~Setup disqus - https://disqus.com/admin/install/platforms/jekyll/~~
 * ~~Setup custom domain~~
 * ~~Setup cloudflare~~
-  * Always on SSH
-* Write intro post
+  * ~~Always on SSL~~
+* ~~Write about me post~~
+* ~~Write intro post~~
 * Look into additional plugins
 * ~~Verify redirect~~
 * Links list
-* SEO
+* ~SEO~

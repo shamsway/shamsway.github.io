@@ -2,4 +2,5 @@ _site/
 Gemfile
 Gemfile.lock
 .DS_Store
+**/.DS_Store
 build.sh

@@ -6,6 +6,12 @@ theme: jekyll-theme-modernist
 permalink: /:year/:month/:title/
 show_downloads: false
 exclude: ["README.md"]
+plugins: 
+  - jekyll-crosspost-to-medium
+  - jemoji
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-analytics
 
 paginate: 10
 paginate_path: "page:num"
@@ -22,6 +28,18 @@ disqus:
     # Leave shortname blank to disable comments site-wide.
     # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
     shortname: "networkbrouhaha"
+
+jekyll-crosspost_to_medium:
+  enabled: true
+  cache: .jekyll-crosspost_to_medium
+  status: public
+  license: all-rights-reserved
+  backdate: true
+
+jekyll_analytics:
+  GoogleAnalytics:          # Add, if you want to track with Google Analytics
+    id: UA-115105463-1      # Required - replace with your tracking id
+    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
 
 rss_path: feed/
 categories_path: categories/
