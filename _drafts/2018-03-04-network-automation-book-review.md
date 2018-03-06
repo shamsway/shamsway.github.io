@@ -4,6 +4,7 @@ theme: jekyll-theme-modernist
 title: "Book Review: Network Programability and Automation"
 date: 2018-03-04
 comments: true
+excerpt: A wall of text with my detailed thoughts on this book<p>
 ---
 
 {: .center}

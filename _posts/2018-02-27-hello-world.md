@@ -5,11 +5,12 @@ title: "Hello World"
 date: 2018-02-27
 comments: true
 crosspost_to_medium: true
+excerpt: Every blog needs a first post, so here it is<p>
 ---
 
 Let's get this straight first: I'm from Kentucky, and we say y'all. I had to get that out of the way.
 
-Hey y'all. Every blog needs a first post, and this one is mine. If you really want to get to know my history, you can check out my [about]({{ site.baseurl }}{% link about.html %}) page. Here's the tl;dr - I'm a Network Architect for a regional MSP/CSP/VAR in Lexington, KY. I earned my CCIE (Data Center) in March of 2017, and I've spent the last twelve months doing anything besides studying. Unfortunately it's time to get serious again. Over my career I've drawn a lot of inspiration from [bloggers and podcasters]({{ site.baseurl }}{% link links.html %}) in the networking community, and I'm quite sure I would not have gotten to where I am without their examples. While this [post](http://blog.ipspace.net/2018/01/how-to-become-better-networking-engineer.html) from Ivan Pepelnjak was not the reason I decided to start this blog, the items he lists are a good summary of why I'm doing it.
+Hey y'all. Every blog needs a first post, so here it is. If you really want to get to know my history, you can check out my [about]({{ site.baseurl }}{% link about.html %}) page. Here's the tl;dr - I'm a Network Architect for a regional MSP/CSP/VAR in Lexington, KY. I earned my CCIE (Data Center) in March of 2017, and I've spent the last twelve months doing anything besides studying. Unfortunately it's time to get serious again. Over my career I've drawn a lot of inspiration from [bloggers and podcasters]({{ site.baseurl }}{% link links.html %}) in the networking community, and I'm quite sure I would not have gotten to where I am without their examples. While this [post](http://blog.ipspace.net/2018/01/how-to-become-better-networking-engineer.html) from Ivan Pepelnjak was not the reason I decided to start this blog, the items he lists are a good summary of why I'm doing it.
 
 > * Mentor younger engineers;
 > * Educate non-networking professionals how networking really works;
