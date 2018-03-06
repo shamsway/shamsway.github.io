@@ -1,6 +1,7 @@
 name: Network Brouhaha
 title: Network Brouhaha
 description: Networking, Cloud, Automation, Infrastructure, Containers and General Geekery
+url: https://networkbrouhaha.com
 markdown: kramdown
 theme: jekyll-theme-modernist
 permalink: /:year/:month/:title/
