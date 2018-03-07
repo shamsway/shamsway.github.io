@@ -76,4 +76,4 @@ There is nothing in this book that is going to increase your understanding of OS
 
 In the words of Jason Edelman, Scott Lowe, and Matt Oswalt: be the "automator", not the "automated".
 
-Edit: I'd intended to include an example script I'd written after reading this book. Check it out [here]({% post_url 2018-03-07-NSX-automation-example %}).
+Edit: I'd intended to include an example script I'd written after reading this book. Check it out [here]({ % post_url 2018-03-07-NSX-automation-example % }).
