@@ -75,3 +75,5 @@ We're almost done now, I promise :grin:
 There is nothing in this book that is going to increase your understanding of OSPF or BGP. What it will do is give you the tool set to effectively monitor, configure, and remediate your network. This book covers so much information, yet there is still so much more to learn. I'm going to wrap up this incredibly long post with a link to this video from NANOG 72 titled "[Network Automation: Do I Need Expensive Tools To Do Meaningful Automation?](https://www.youtube.com/watch?v=r-TdsK3RKvo)" In it, Patrick Moore gives some great advice for getting on the "automation on-ramp" and the presentation is a great follow up to *Network Programability and Automation*.
 
 In the words of Jason Edelman, Scott Lowe, and Matt Oswalt: be the "automator", not the "automated".
+
+Edit: I'd intended to include an example script I'd written after reading this book. Check it out [here]({% post_url 2018-03-07-NSX-automation-example %}).
