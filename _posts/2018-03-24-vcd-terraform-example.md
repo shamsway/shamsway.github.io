@@ -87,7 +87,7 @@ echo "Finished doing post-customization steps."
 fi
 ```
 
-This script is run via guest customization when the VM powers on for the first time. It runs apt-update, installs and enables OpenSSH server, sets some environment variables and downloads the ZeroTier installer from GitHub.
+This script is run via guest customization when the VM powers on for the first time. It runs apt-get update, installs and enables OpenSSH server, sets some environment variables and downloads the ZeroTier installer from GitHub.
 
 Normally I'd put some indentation in the script to make it easier to read, but doing so with guest customization caused the script to break. The `if [ x$1 = x"precustomization" ]; then` and `elif [ x$1 = x"postcustomization" ]; then` lines are mentioned in VMware documentation as the way to control whether the script is run during pre-customization or post-customization. The [documentation from VMware](https://pubs.vmware.com/vcd-820/index.jsp?topic=%2Fcom.vmware.vcloud.user.doc%2FGUID-724EB7B5-5C97-4A2F-897F-B27F1D4226C7.html) uses `==` instead of `=` for comparison, but this failed in the Ubuntu template I was using. Thankfully somebody [blogged about this](http://markhneedham.com/blog/2012/08/06/vcloud-guest-customization-script-postcustomization-unexpected-operator/) error back in 2012.
 
