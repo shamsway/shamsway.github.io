@@ -5,7 +5,7 @@ title: "Checking in"
 date: 2018-07-10
 comments: true
 crosspost_to_medium: false
-excerpt: Checking inn after a short blogging hiatus
+excerpt: Checking in after a short blogging hiatus<p>
 ---
 
 Things have been a little quiet around here, so I wanted to put up a quick post recapping what I've been up to as well as things coming down the pike. I've been on quite a run since my last post. The main time sink was passing several tests to keep our Cisco "Advanced Data Center Architecture Specialization" before it expired on 7/1. The upside is the material was _mostly_ the same as what I studied for my CCIE DC. The downside is that my CCIE DC is useless for this specialization. Yes, I'm a little bitter. Here's are the tests that I had to speed run.
