@@ -30,7 +30,7 @@ It's almost time to wrap this up. Before I do, I should mention that I have a bi
 
 To finish, here's a teaser of a few blog posts I'm working on:
 
-* Full Cisco Live recap
+* [Full Cisco Live recap]({% link _posts/2018-07-23-CLUS-recap.md %})
 * CCIE journey/thoughts
 * Guacamole remote access with containers
 * L3 (routing) over vPC

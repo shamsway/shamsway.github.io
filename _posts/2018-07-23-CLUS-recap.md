@@ -47,7 +47,7 @@ I have to give special attention to the [DevNet Zone](https://developer.cisco.co
 {: .center}
 ![]({{ "/resources/2018/07/networkcicd.png" | absolute_url }}){:height="50%" width="50%"}
 
-You'll notice from the list of sessions above that I only attended one keynote. There were DevNet sessions that I wanted to attend instead, and the keynotes are posted online, so it wasn't a tough decision. The closing keynote, featuring [Amy Webb](https://amywebb.io) and [Dr. Michio Kaku](http://mkaku.org) is a different story. By Thursday I was running on fumes, so I took the day easy. About an hour before the closing keynote, I made my way towards the entrance and saw a huge line had already formed. I had no interest in standing for an hour, so I found an empty seat nearby and waited for the doors to open. For some reason they didn't open the doors where folks had queued - they opened the doors _directly_ behind the seat I was sitting in. I was surprised and felt bad for the folks that had been waiting in line, but I'm also no dummy. I grabbed my stuff, walked in, and got seated in the front row almost directly in-front of the stage. Talk about good luck! To top it off, as I was sitting there, one of my tweets was flashed up on the uber-displays. It was an amazing and surreal way to end CLUS. Both Amy and Michio gave great keynotes to wrap up CLUS.
+You'll notice from the list of sessions above that I only attended one keynote. There were DevNet sessions that I wanted to attend instead, and the keynotes are posted online, so it wasn't a tough decision. The closing keynote, featuring [Amy Webb](https://amywebb.io) and [Dr. Michio Kaku](http://mkaku.org) is a different story. By Thursday I was running on fumes, so I took the day easy. About an hour before the closing keynote, I made my way towards the entrance and saw a huge line had already formed. I had no interest in standing for an hour, so I found an empty seat nearby and waited for the doors to open. For some reason they didn't open the doors where folks had queued - they opened the doors _directly_ behind the seat I was sitting in. I was surprised and felt bad for the people that had been waiting in line, but I'm no dummy. I grabbed my stuff, walked in, and got seated in the front row almost directly in front of the stage. Talk about good luck! To top it off, as I was sitting there, one of my tweets was flashed up on the uber-displays. It was an amazing and surreal way to end CLUS. Both Amy and Michio gave great keynotes to wrap up CLUS.
 
 {: .center}
 ![]({{ "/resources/2018/07/clustweet.png" | absolute_url }}){:height="75%" width="75%"}
@@ -62,7 +62,7 @@ Here's a few random tips to wrap up this post
 * Come prepared to learn a lot, and keep a notebook handy. You may find yourself wanting to take notes when least expected.
 * Put yourself out there. Go out of your way to introduce yourself to peers in sessions, during meals, and at parties. Bring business cards.
 * If you're social, hit the Tweetups. This is a great place to meet people and network.
-* Go easy at the parties. You'll do yourself no favors by trying to make it through the next day hung over.
+* Go easy at the parties. You'll do yourself no favors by trying to make it through the next day hungover.
 * HAVE FUN.
 
 {: .center}
