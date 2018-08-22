@@ -4,7 +4,7 @@ theme: jekyll-theme-modernist
 title: "Hybrid Home Lab Pt. 1"
 date: 2018-08-21
 comments: true
-crosspost_to_medium: false
+crosspost_to_medium: true
 excerpt: Over the last few weeks I've been working on standing up my version of a "real" lab. I've got enough information together to start putting together some blog posts, so let's dive right in.<p>
 ---
 
