@@ -8,7 +8,7 @@ crosspost_to_medium: false
 excerpt: CI tools like GitHub Actions can be used to test and run automation against your infrastructure fairly easily<p>
 ---
 
-I recently co-presented a session titled [Codify Your Environment with Terraform and Ansible](https://hi.com) at the inaugural [Rubrik Forward Digital Summit](https://forward.rubrik.com/). My demo used [GitHub Actions](https://github.com/features/actions) to run a number of Ansible playbooks. The code is hosted at [https://github.com/rfitzhugh/Forward-2020-Codify-Your-Environment](https://github.com/rfitzhugh/Forward-2020-Codify-Your-Environment). One of my main takeaways for those attending the session is that [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration) (CI) tools like GitHub Actions can be used to test and run automation against your infrastructure fairly easily. Let's take a look.
+I recently co-presented a session titled [Codify Your Environment with Terraform and Ansible](https://bit.ly/3g51lBR) at the inaugural [Rubrik Forward Digital Summit](https://forward.rubrik.com/). My demo used [GitHub Actions](https://github.com/features/actions) to run a number of Ansible playbooks. The code is hosted at [https://github.com/rfitzhugh/Forward-2020-Codify-Your-Environment](https://github.com/rfitzhugh/Forward-2020-Codify-Your-Environment). One of my main takeaways for those attending the session is that [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration) (CI) tools like GitHub Actions can be used to test and run automation against your infrastructure fairly easily. Let's take a look.
 
 
 # The GitHub Actions Flow
