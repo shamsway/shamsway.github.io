@@ -5,3 +5,5 @@ Gemfile.lock
 **/.DS_Store
 build.sh
 serve.sh
+.jekyll-cache/
+.jekyll-cache/*
