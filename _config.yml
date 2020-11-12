@@ -8,10 +8,11 @@ permalink: /:year/:month/:title/
 show_downloads: false
 exclude: ["README.md"]
 plugins:
-  - jekyll-crosspost-to-medium
+#  - jekyll-crosspost-to-medium
   - jemoji
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-paginate
 
 paginate: 10
 paginate_path: "page:num"
@@ -29,12 +30,12 @@ disqus:
     # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
     shortname: "networkbrouhaha"
 
-jekyll-crosspost_to_medium:
-  enabled: true
-  cache: .jekyll-crosspost_to_medium
-  status: public
-  license: all-rights-reserved
-  backdate: true
+#jekyll-crosspost_to_medium:
+#  enabled: true
+#  cache: .jekyll-crosspost_to_medium
+#  status: public
+#  license: all-rights-reserved
+#  backdate: true
 
 rss_path: feed/
 categories_path: categories/
