@@ -4,6 +4,7 @@ theme: jekyll-theme-modernist
 title: "Cloud Connectivity 101"
 date: 2020-11-17
 comments: true
+excerpt: With my prior post in mind, we can look at the various methods available for connecting to the cloud.
 ---
 
 {: .center}
