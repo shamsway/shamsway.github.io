@@ -9,7 +9,7 @@ excerpt: Over the past few years, I’ve encountered all sorts of confusion abou
 {: .center}
 ![]({{ "/resources/2020/11/clouds.png" | absolute_url }})
 
-Over the past few years, I’ve encountered all sorts of confusion about how cloud resources should be architected, accessed, and consumed. In this post, which is the first in a series, I will walk through some networking basics relevant to cloud connectivity. The next post will cover methods for connecting to cloud providers, and subsequent posts will dive deeper into specific topics. 
+Over the past few years, I’ve encountered all sorts of confusion about how cloud resources should be architected, accessed, and consumed. In this post, which is the first in a series, I will walk through some networking basics relevant to cloud connectivity. The [next post]({% link _posts/2020-11-17-cloud-connectivity-101.md %}) covers methods for connecting to cloud providers, and subsequent posts will dive deeper into specific topics. 
 
 # Network Basics
 
