@@ -4,7 +4,7 @@ theme: jekyll-theme-modernist
 title: "Cloud Connectivity 202 - Extending Layer 2 Into the Cloud"
 date: 2021-01-11
 comments: true
-excerpt: My laid out several options for connecting to the cloud. In this post, I’ll dive into reliable connectivity to the cloud. In the real world, circuits drop, transceivers fail, and software bugs cause lockups or unexpected reboots. This is one of the fundamental tenants of working with technology. If you expect of uptime, you must plan for component failures and unexpected outages.<p>
+excerpt: In this post, I will talk about extending layer 2 into the cloud, including scenarios for when it is a good idea, and the numerous dangers involved. I let out a good, long sigh after writing that sentence. Beware, there are dragons ahead.<p>
 ---
 
 {: .center}
