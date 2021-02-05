@@ -81,6 +81,10 @@ body {
 
 }
 
+.drop-shadow { 
+  filter:drop-shadow(4px 4px 4px gray); 
+} 
+
 .center {
     text-align: center;
 }
