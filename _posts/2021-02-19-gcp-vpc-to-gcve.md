@@ -188,7 +188,11 @@ After a few moments, `Region Status` should show a status of `Connected`. Your V
 
 # Verify VPC Routing Table
 
-Once peering is completed, you should see routes for networks in your GCVE SDDC in your VPC routing table. You can view these routes in the cloud console or with the `gcloud couple networks peerings list-routes service-networking-googleapis-com –network=[VPC Name] –region=[Region name] –direction=incoming`.
+Once peering is completed, you should see routes for networks in your GCVE SDDC in your VPC routing table. You can view these routes in the cloud console or with:
+
+```
+ gcloud couple networks peerings list-routes service-networking-googleapis-com –network=[VPC Name] –region=[Region name] –direction=incoming
+```
 
 {: .center}
 [![](/resources/2021/02/19_gcloud_routes_output.png)](/resources/2021/02/19_gcloud_routes_output.png){:.drop-shadow}
