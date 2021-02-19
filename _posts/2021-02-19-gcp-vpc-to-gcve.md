@@ -16,7 +16,7 @@ I’m assuming you have a working SDDC deployed in VMware Engine and some basic 
 
 # Private Service Access Overview
 
-GCVE SDDCs can establish connectivity to native GCP services with [private services access](https://cloud.google.com/vpc/docs/private-services-access).  This service can be used to establish connectivity from a VPC to a third-party “service producer,” but in this case, it will simply plumb connectivity between our VPC and SDDC. Configuring private services access requires allocating one or more reserved ranges that cannot be used in your local VPC network. In this case, we will supply the ranges that we have allocated for our SDDC networks. Doing this prevents issues with overlapping IP ranges.
+GCVE SDDCs can establish connectivity to native GCP services with [private services access](https://cloud.google.com/vpc/docs/private-services-access). This feature can be used to establish connectivity from a VPC to a third-party “service producer,” but in this case, it will simply plumb connectivity between our VPC and SDDC. Configuring private services access requires allocating one or more reserved ranges that cannot be used in your local VPC network. In this case, we will supply the ranges that we have allocated for our VMware Engine SDDC networks. Doing this prevents issues with overlapping IP ranges.
 
 # Leveraging Terraform for Configuration
 
@@ -25,7 +25,7 @@ I have provided Terraform code will do the following:
 * Create a VPC network
 * Create a subnet in the new VPC network that will be used to communicate with GCVE
 * Create two Global Address pools that will be used to reserve addresses used in GCVE
-* Create a private connection in the new VPC, using the two address pools as reserved ranges
+* Create a private connection in the new VPC, using the two Global Address pools as reserved ranges
 * Enable import and export of custom routes for the VPC
 
 After Terraform completes configuration, you will be able to establish peering with the new VPC in GCVE.  To get started, clone the example repo with `git clone https://github.com/shamsway/gcp-terraform-examples.git`, then change to the `gcve-network` sub-directory. You will find these files:
@@ -34,7 +34,7 @@ After Terraform completes configuration, you will be able to establish peering w
 * `variables.tf` – Defines the input variables that will be used in `main.tf`
 * `terraform.tfvars` – Supplies values for the input variables defined in `variables.tf`
 
-Let’s take a look at what is happening in `main.tf`, then we will supply the necessary variables in `terraform.tfvars` and run Terraform. You will see `var.[name]` appear over and over in the code, as this is how Terraform references variables. You may think it would be easier to place the desired values directly into `main.tf` instead of defining and supplying variables, but it is worth the time to get used to using variables. Hardcoding values in your code is rarely a good idea, and most Terraform code that I have consumed from other authors use variables heavily.
+Let’s take a look at what is happening in `main.tf`, then we will supply the necessary variables in `terraform.tfvars` and run Terraform. You will see `var.[name]` appear over and over in the code, as this is how Terraform references variables. You may think it would be easier to place the desired values directly into `main.tf` instead of defining and supplying variables, but it is worth the time to get used to using variables with Terraform. Hardcoding values in your code is rarely a good idea, and most Terraform code that I have consumed from other authors use variables heavily.
 
 ## main.tf Contents
 
