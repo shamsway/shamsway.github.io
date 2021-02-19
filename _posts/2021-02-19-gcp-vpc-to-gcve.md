@@ -20,7 +20,7 @@ GCVE SDDCs can establish connectivity to native GCP services with [private servi
 
 # Leveraging Terraform for Configuration
 
-I have provided Terraform code will do the following:
+I have provided Terraform code that will do the following:
 
 * Create a VPC network
 * Create a subnet in the new VPC network that will be used to communicate with GCVE
