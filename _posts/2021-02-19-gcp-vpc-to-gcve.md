@@ -9,6 +9,11 @@ excerpt: This post will show the process of connecting a VPC to your GCVE enviro
 
 My [previous post]({% link _posts/2021-02-04-gcve-sddc-with-hcx.md %}) walked through deploying an SDDC in Google Cloud VMware Engine (GCVE). This post will show the process of connecting a VPC to your GCVE environment, and we will use Terraform to do the vast majority of the work. The diagram below shows the basic concept of what I will be covering in this post. Once connected, you will be able to communicate from your VPC to your SDDC and vice versa. If you would like to complete this process using the cloud console instead of Terraform, see [Setting up private service access](https://cloud.google.com/vmware-engine/docs/networking/howto-setup-private-service-access) in the VMware Engine documentation.
 
+**Other posts in this series:**
+
+* [Deploying a GCVE SDDC with HCX]({% link _posts/2021-02-04-gcve-sddc-with-hcx.md %})
+* [Bastion Host Access with IAP]({% link _posts/2021-03-03-gcve-bastion.md %})
+
 {: .center}
 [![](/resources/2021/02/gcve-vpc-peeing.png)](/resources/2021/02/gcve-vpc-peeing.png){:.drop-shadow}
 
