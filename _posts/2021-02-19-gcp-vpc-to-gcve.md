@@ -14,6 +14,7 @@ My [previous post]({% link _posts/2021-02-04-gcve-sddc-with-hcx.md %}) walked th
 * [Deploying a GCVE SDDC with HCX]({% link _posts/2021-02-04-gcve-sddc-with-hcx.md %})
 * [Bastion Host Access with IAP]({% link _posts/2021-03-03-gcve-bastion.md %})
 * [Network and Connectivity Overview]({% link _posts/2021-03-18-gcve-network-overview.md %})
+* [HCX Configuration]({% link _posts/2021-04-12-gcve-hcx-config.md %})
 
 {: .center}
 [![](/resources/2021/02/gcve-vpc-peeing.png)](/resources/2021/02/gcve-vpc-peeing.png){:.drop-shadow}
