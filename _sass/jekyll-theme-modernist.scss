@@ -15,7 +15,7 @@ body {
 }
 
 .wrapper {
-  width:850px;
+  width:900px;
   margin:0 auto;
   background:#DEDEDE;
   border-radius: 8px;
@@ -87,6 +87,15 @@ body {
 
 .center {
     text-align: center;
+}
+
+.screen-reader-only {
+  position: absolute;
+  left: -5000px;
+
+  &:focus {
+      left: 0;
+  }
 }
 
 header, section, footer {
@@ -249,7 +258,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height:1.2;
 }
 
-p, ul, ol, table, pre, dl {
+p, ol, table, pre, dl {
   margin:0 0 20px;
 }
 
