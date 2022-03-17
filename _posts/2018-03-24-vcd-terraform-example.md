@@ -5,6 +5,7 @@ title: "Simple cloud automation with vCD, Terraform, ZeroTier and Slack"
 date: 2018-03-24
 comments: true
 crosspost_to_medium: true
+excerpt: Earlier this month I had the opportunity to present at the Lexington VMUG on cloud automation. I used this opportunity to pull together a few tools I had been experimenting with and combine them for a simple cloud automation example.<p>
 ---
 
 Earlier this month I had the opportunity to present at the [Lexington VMUG](https://community.vmug.com/communities/localcommunityhome?CommunityKey=84170a74-5453-4c77-abba-74124cd7dd42) on cloud automation. I used this opportunity to pull together a few tools I had been experimenting with and combine them for a simple cloud automation example.

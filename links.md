@@ -18,7 +18,7 @@ title: Links
 * [Katherine McNamara's Blog](https://www.network-node.com/blog/)
 * [Virtualizing a Physical World](https://www.thomgreene.com)
 * [Full Stack KENgineer](https://fullstackkengineer.com)
-* [Tom Fojita's Blog](https://fojta.wordpress.com)
+* [Tom Fojta's Blog](https://fojta.wordpress.com)
 * [Tech Field Day](http://techfieldday.com)
 
 ## Here's the stuff I try to listen to
