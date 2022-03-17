@@ -180,7 +180,7 @@ Most of the config in the `vcd_vapp_vm `resource is what you’d expect - comput
 
 If you have values in your `cloud-config.yaml` file that you need to change on the fly, like credentials or API keys, you can use the [templatefile()](https://www.terraform.io/language/functions/templatefile) function to insert those values into the config file before encoding it. It’s possible that `user-data` will contain sensitive data and it is trivial to decode base64. In a production environment, you should remove the `user-data` from the VM after first boot.
 
-I traveled down a winding road to get here, but I finally assembled all of the pieces needed to do what I set out for originally: update an old blog post. If all you needed was some tips on using cloud-init with Terraform and VCD, you can go along your merry way. Stick around if you want some tips on troubleshooting cloud-init.
+I traveled down a winding road to get here, but I finally assembled all of the pieces needed to do what I set out for originally: [update an old blog post]({% link _posts/2022-03-16-vcd-verraform-example.md %}). If all you needed was some tips on using cloud-init with Terraform and VCD, you can go along your merry way. Stick around if you want some tips on troubleshooting cloud-init.
 
 
 # Troubleshooting cloud-init
